@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Badge, theme } from "antd";
 import { CartIcon } from "./Icons";
 import styles from "./cartsummary.module.css"
+import "antd"
 
 export default function CartSummary() {
   const { token: { colorTextBase }} = theme.useToken();
